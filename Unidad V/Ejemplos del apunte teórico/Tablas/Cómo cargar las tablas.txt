@@ -1,0 +1,17 @@
+
+MariaDB [ejemplos_teoría]> load data local infile '/home/juani/OneDrive/Facultad/3° año/Bases de Datos/Práctica/Unidad V/Ejemplos del apunte teórico/Tablas/marineros.csv'
+    -> into table marineros
+    -> fields terminated by ','
+    -> enclosed by '"'
+    -> lines terminated by '\n'
+    -> ignore 1 rows;
+Query OK, 10 rows affected (0,037 sec)               
+Records: 10  Deleted: 0  Skipped: 0  Warnings: 0
+
+MariaDB [ejemplos_teoría]> load data local infile '/home/juani/OneDrive/Facultad/3° año/Bases de Datos/Práctica/Unidad V/Ejemplos del apunte teórico/Tablas/reservas.csv' into table reservas fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+Query OK, 10 rows affected (0,037 sec)               
+Records: 10  Deleted: 0  Skipped: 0  Warnings: 0
+
+MariaDB [ejemplos_teoría]> load data local infile '/home/juani/OneDrive/Facultad/3° año/Bases de Datos/Práctica/Unidad V/Ejemplos del apunte teórico/Tablas/barcos.csv' into table barcos fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+Query OK, 4 rows affected (0,037 sec)                
+Records: 4  Deleted: 0  Skipped: 0  Warnings: 0

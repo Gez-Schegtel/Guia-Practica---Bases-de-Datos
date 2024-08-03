@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=4-wwjx2hINk
+
+LOAD DATA LOCAL INFILE '<dirección_al_archivo>'
+INTO TABLE <tabla>
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS; -- Esta opción se pone si la primer fila del archivo .csv tiene el nombre de los campos de la tabla.
